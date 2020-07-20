@@ -1,0 +1,80 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: #ffbf00;
+	font-size:20px;
+	font-family: 'Oxygen', sans-serif;
+
+
+}
+#whole {
+	background-color: maroon;
+	color:white;
+}
+#sidebar {
+	position: fixed;
+	width:30%;
+	height:100%;
+	left:-30%;
+	background-color: pink;
+	
+}
+#sidebar li {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding:30px;
+	border-bottom: 1px solid black;
+	text-align: center;
+
+}
+.togglebtn {
+	position: relative;
+	left:100%;
+	top:10px;
+}
+.togglebtn span {
+	display:block;
+	background-color:black;
+	width:30px;
+	height:5px;
+	margin:3px;
+
+} 
+#sidebar li:nth-child(1) {
+	color:black;
+
+}
+#sidebar li:nth-child(2) {
+	color:red;
+}
+
+		a:hover, a:active {
+			background-color:green;
+			color:white;
+		}
+#sidebar.active {
+	left:0;
+}
+#chicken {
+	text-underline-position: center;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+}
+#fish {
+
+	text-align: center;
+	font-size:26px;
+	font-weight: bold;
+	}
+#prawn {
+
+	text-align:center;
+	font-size:26px;
+	font-weight: bold;
+}
+#bot{
+	color:white;
+}
+
